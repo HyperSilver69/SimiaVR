@@ -11,5 +11,5 @@
   
    [Video Tutorial]("X") \
    \
-   [Written Tutorial (Recommended)]("https://github.com/HyperSilver69/SimiaVR/blob/main/Setup.md")
+   [Written Tutorial(Recommended)](https://github.com/HyperSilver69/SimiaVR/blob/main/Setup.md)
 </p>
