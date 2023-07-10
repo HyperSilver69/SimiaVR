@@ -35,7 +35,7 @@ Unlike Photon and Mirror, Simia has it's own package for Normcore, making it ver
 
 ## Setting up Normcore
 
-1. Download the latest Normcore package for Simia [here]()
+1. Download the latest Normcore package for Simia [here](https://github.com/HyperSilver69/SimiaVR/raw/main/NormcoreV1.unitypackage)
 2. go to [Normcore.io](https://normcore.io/) and create an account.
 3. When prompted with four options, select "Create an application", you may name this Application whatever you want. (NOTE TO SELF, INCLUDE THE NORMAL FOLDER IN THE PACKAGE)
 4. Copy the ID, then go back into unity.
