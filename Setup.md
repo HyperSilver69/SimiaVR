@@ -40,76 +40,10 @@ imported via `Assets -> Import Package -> Custom package`. Each Package comes wi
 Simia supports multiple multiplayer solutions, ranging from easy to set up solutions to ones that require a basic knowledge of networking. The following listed packages are the ones we support
 - [Normcore](https://github.com/HyperSilver69/SimiaVR/blob/main/Normcore.md) (good for beginners, very limited.)
 - [PhotonVR](https://github.com/HyperSilver69/SimiaVR/blob/main/PhotonVR.md)(Widely used, can find tutorials easily, not very secure.)
+- [MirrorVR](x)Still in development, not yet available.
 
 
-
-
-
-
-
-
-## The use of the math library
-
-the `math` library contains a lot of useful functions.
-In this tutorial we're gonna be looking at `math.random()`, `math.floor()`, and `math.ceil()`, the three most widely used.
-
-`math.random` allows you to find a random number, whether this is in a table, just numbers, or between values.
-```lua
-local table1 = {
-  "Hello!", "Bye!", "G'day!"
-}
-local table2 = {
- "Rage.","Happinness","Love"
-}
-
-local var = math.random() -- math.random() without any given argument will return a value between 0 and 1, with decimals.
-local var1 = math.random(1, 65) -- math.random() with number arguments will return a value between min(first number) and max(last number), math.random allows up to 2 arguments.
-local var2 = math.random(-5, 15) -- math.random() takes negative values. Remember to always put the smallest number as `min` and the largest number as `max`
-
-local var3 = table1[math.random(#table1)] -- first, we use `table1[]` to make it obvious that we're refering to a table, then we call math.random(#table1), by doing so, we're applying math.random to `#table1`. Putting "#" before a table, will make it so we're getting a value, since "#" makes it numbered.
-```
-Now lets take a look at the outputs!
-```lua
-print(var)
-print(var1)
-print(var2)
-print(var3)
-
-
-----------------------------------------
-0.91847161 -- print(var)
-32 -- print(var1)
--3 -- print(var2)
-Hello! -- print(var3)
-```
-
-
-
-
-
-
-Math.floor
-
-Math.floor returns whatever value provided and lowers it to the nearest integer. Let's take a look!
-```lua
-local number = 4.9999999999 -- number with decimals
-print(math.floor(number))
-
-
-----------------------------------------
-4 -- print(math.floor(number))
-```
-See how the name corrolates to the actual word "Floor"? and a floor is on the ground so we're going DOWN to the ground
-
-
-
-Math.ceil
-
-math.ceil returns whatever value provided and rouds it up to the nearest integer, let's take a look!
-```lua
-local number = 4.0000000001 -- number with decimals
-print(math.ceil(number))
-
+That brings us to the end of the basic setup tutorial! If you have any more questions, please ask them in the [Discord Server](https://discord.gg/ME7UY9vYQD) and in order to set up multiplayer just select one of the highlighted solutions above!
 ----------------------------------------
 5 -- print(math.ceil(number))
 ```
