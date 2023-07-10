@@ -38,7 +38,8 @@ imported via `Assets -> Import Package -> Custom package`. Each Package comes wi
 
 ### Multiplayer
 Simia supports multiple multiplayer solutions, ranging from easy to set up solutions to ones that require a basic knowledge of networking. The following listed packages are the ones we support
-- [Normcore (good for beginners, very limited.)]()
+- [Normcore](https://github.com/HyperSilver69/SimiaVR/blob/main/Normcore.md) (good for beginners, very limited.)
+- [PhotonVR](https://github.com/HyperSilver69/SimiaVR/blob/main/PhotonVR.md)(Widely used, can find tutorials easily, not very secure.)
 
 
 
