@@ -37,13 +37,14 @@ Unlike Photon and Mirror, Simia has it's own package for Normcore, making it ver
 
 1. Download the latest Normcore package for Simia [here](https://github.com/HyperSilver69/SimiaVR/raw/main/NormcoreV1.unitypackage)
 2. go to [Normcore.io](https://normcore.io/) and create an account.
-3. When prompted with four options, select "Create an application", you may name this Application whatever you want. (NOTE TO SELF, INCLUDE THE NORMAL FOLDER IN THE PACKAGE)
+3. When prompted with four options, select "Create an application", you may name this Application whatever you want.
 4. Copy the ID, then go back into unity.
 5. In unity, import the Normcore package (Don't know how? Go back to the [setup](https://github.com/HyperSilver69/SimiaVR/blob/main/Setup.md) page.
 6. Go to `Assets -> Normal -> Examples -> VR Player` then drag the `Realtime + VR Player` file into the Player rig, this depends based on which locomotion style you picked.
    - Gorilla tag Locomotion: Drag the file into the `Player` GameObject in your scene.
    - Physics/Capuchin Locomotion: Open the `PhysicsPlayer` GameObject by pressing the arrow next to it, then drag the file into the `Player Rig` Child GameObject.
   Select the GameObject that you just added, and paste the App Key you copied into the `App Key` field in the inspector.
+Also click the little circle next to "App Settings" select the only option visible named `NormcoreAppSettings`
 7. Select the `Resources` folder under the `VR Player` folder and open the Prefab called `VR Player`. Here you can change the way the Player looks. Further down in this Setup guide, it will also be where you can apply some of the tutorials!
 8. Go back out of the `VR Player` Prefab by pressing the arrow in the top left. Open the same GameObject where you pasted the App Key, and open the `Local Player` dropdown. If the `Local Avatar Prefab` says **none**, then drag the VR Player Prefab into there, otherwise ignore this step.
 9. For the Root, depending on your Locomotion style, this is either going to be:
