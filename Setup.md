@@ -44,7 +44,3 @@ Simia supports multiple multiplayer solutions, ranging from easy to set up solut
 
 
 That brings us to the end of the basic setup tutorial! If you have any more questions, please ask them in the [Discord Server](https://discord.gg/ME7UY9vYQD) and in order to set up multiplayer just select one of the highlighted solutions above!
-----------------------------------------
-5 -- print(math.ceil(number))
-```
-See how the name corrolates to the actual word "Ceiling"? and a ceiling is above you, so we're going UP!
